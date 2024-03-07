@@ -17,7 +17,7 @@ cd /app
 npm install
 
 dnf install mysql -y
-mysql -h <mysql-dev.decops76s.online> -uroot -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h mysql-dev1.decops76s.online -uroot -pExpenseApp@1 < /app/schema/backend.sql
 
 systemctl daemon-reload
 systemctl enable backend
