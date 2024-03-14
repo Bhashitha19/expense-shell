@@ -45,7 +45,7 @@ if [ $? -ne 0 ]; then
    fi
 fi
 
-if [ -d /app ]; then
+if [ ! -d /app ]; then
   echo -e "${color} create application directory \e[0m"
   useradd expense &>>$log_file
   if [ $? -eq 0 ]; then
