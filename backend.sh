@@ -46,13 +46,13 @@ if [ $? -ne 0 ]; then
 fi
 
 if [ -d /app ]; then
-echo -e "${color} Create Application Directory \e[0m"
-mkdir /app &>>$log_file
-if [ $? -eq 0 ]; then
- echo -e "\e[32m SUCCESS \e[0m"
-else
- echo -e "\e[31m FAILURE \e[0m"
-fi
+  echo -e "${color} create application directory \e[0m"
+  useradd expense &>>$log_file
+  if [ $? -eq 0 ]; then
+   echo -e "\e[32m SUCCESS \e[0m"
+   else
+  echo -e "\e[31m FAILURE \e[0m"
+   fi
 fi
 
 echo -e "${color} Delete old Application Content \e[0m"
@@ -62,6 +62,7 @@ if [ $? -eq 0 ]; then
 else
  echo -e "\e[31m FAILURE \e[0m"
 fi
+
 
 echo -e "${color} Download Application Content \e[0m"
 curl -o /tmp/backend.zip https://expense-artifacts.s3.amazonaws.com/backend.zip &>>$log_file
