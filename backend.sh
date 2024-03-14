@@ -2,6 +2,13 @@
 log_file="/tmp/expense.log"
 color="\e[33m"
 
+if [ -z "$1" ]; then
+  echo password input missing
+  exit
+fi
+
+MYSQL_ROOT_PASSWORD=$1
+
 echo -e "${color} Disable Nodejs Default Version \e[0m"
 dnf module disable nodejs -y &>>$log_file
 if [ $? -eq 0 ]; then
@@ -98,7 +105,7 @@ else
 fi
 
 echo -e "${color} Load Schema \e[0m"
-mysql -h mysql-dev1.decops76s.online -uroot -pExpenseApp@1 < /app/schema/backend.sql &>>$log_file
+mysql -h mysql-dev1.decops76s.online -uroot -p${MTSQL_ROOT_PASSWORD}@1 < /app/schema/backend.sql &>>$log_file
 if [ $? -eq 0 ]; then
  echo -e "\e[32m SUCCESS \e[0m"
 else
