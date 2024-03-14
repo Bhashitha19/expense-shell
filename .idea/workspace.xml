@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7e9ac0-5153-4ba3-bd21-4869a9b5b603" name="Changes" comment="shell scripting topics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mysql.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,135 @@
       <option name="project" value="LOCAL" />
       <updated>1709803443425</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710399693097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710399693097</updated>
+    </task>
+    <task id="LOCAL-00006" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710399733817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710399733817</updated>
+    </task>
+    <task id="LOCAL-00007" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710404034017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710404034018</updated>
+    </task>
+    <task id="LOCAL-00008" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710404522720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710404522720</updated>
+    </task>
+    <task id="LOCAL-00009" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710409642777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710409642777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710409664227</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710409664227</updated>
+    </task>
+    <task id="LOCAL-00011" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710409811910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710409811910</updated>
+    </task>
+    <task id="LOCAL-00012" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710409951586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710409951586</updated>
+    </task>
+    <task id="LOCAL-00013" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710410113170</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710410113170</updated>
+    </task>
+    <task id="LOCAL-00014" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710412253092</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710412253092</updated>
+    </task>
+    <task id="LOCAL-00015" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710412659440</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710412659440</updated>
+    </task>
+    <task id="LOCAL-00016" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710413227320</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710413227320</updated>
+    </task>
+    <task id="LOCAL-00017" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710413545176</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710413545176</updated>
+    </task>
+    <task id="LOCAL-00018" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710415404511</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710415404511</updated>
+    </task>
+    <task id="LOCAL-00019" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710416470860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416470860</updated>
+    </task>
+    <task id="LOCAL-00020" summary="shell scripting topics">
+      <option name="closed" value="true" />
+      <created>1710416606724</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416606724</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
