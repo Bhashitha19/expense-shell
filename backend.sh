@@ -20,7 +20,7 @@ status_check()
 
 echo -e "${color} Disable Nodejs Default Version \e[0m"
 dnf module disable nodejs -y &>>$log_file
-
+status_check
 
 echo -e "${clor} Enable Nodejs 18 Version \e[0m"
 dnf module enable nodejs:18 -y &>>$log_file
@@ -43,7 +43,7 @@ fi
 
 if [ ! -d /app ]; then
   echo -e "${color} create application directory \e[0m"
-  useradd expense &>>$log_file
+  mkdir /app &>>$log_file
   status_check
 fi
 
